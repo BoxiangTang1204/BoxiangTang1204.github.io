@@ -1,0 +1,129 @@
+---
+title: "My Full Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+## Peronal Information
+
+* **Boxiang Tang**
+* **50 Haven Ave., Apt 608, New York, New York 10032**
+* **(646) 387-7676 / bt2654@cumc.columbia.edu**
+
+
+## Education {.tabset}
+
+### Undergraduate 
+
+**University of Toronto** 
+
+**Honour Bachelor of Science**
+
+* Toronto, ON, CA | Sep 2019 – June 2024        
+
+* Example Coursework:   Linear Algebra; Probability and Statistics; Methods of Data Analysis; Survey & Obs   data; Applied Linear Programming; Immunity & Infection; Methods of Multivariate Data; Time Series Analysis; Design and Analysis of Experiments
+
+### Graduate
+
+**Columbia University, CUMC**       
+
+**Master of Science in Biostatisitic**                                             
+
+* New York ,NY | Aug 2024 – Present
+
+* Main Honours: Dean’s List Scholar (4 academic years) 
+* Example Coursework: Data Science I; Biostatistical Method I; Probability; Principle of Epidemiology
+
+
+## Personal Experiences {.tabset}
+
+### Professonal
+
+**Derom Medical**
+
+**Assistant to the Board Secretary**
+
+* Changsha, CN | May 2021 – Aug 2021
+
+* Brief Descriptions:
+
+    * Collaborated with securities firms to deliver comprehensive guidance to the company, encompassing the standardization of organizational structure, the development of compliant charters for listed companies, the refinement of internal decision-making processes, and the enhancement of financial accounting systems.
+
+    * Actively engaged in learning and training on pertinent laws, regulations, and standard procedures associated with IPOs.
+
+
+### Academic Research
+
+**Central South University，Xiangya School of Pharmaceutical Sciences** 
+
+**Research Assistant**
+
+* Changsha, CN | Jun 2021- Oct 2021
+
+* Brief Descriptions:
+
+    * Joined the Prof. Zhou Yingjun’s team and participated in breast cancer treatment research project focusing on gene expression, protein-protein interaction, and clinical data analysis.
+    * Utilized Python libraries including pandas and scipy for data cleaning, preprocessing, and statistical analysis. 
+    * Implemented feature engineering to select gene expression levels related to the Akt-mTOR pathway for model optimization.
+    * Applied sklearn.svm.SVC function for Support Vector Machine (SVM) modeling and GridSearchCV for parameter optimization to predict patient responses for personalized treatment recommendations, the weighted prediction accuracy is 82.55%.
+
+
+**Columbia University, CUMC** 
+
+**Research Assistant**
+
+* New York, NY | Oct 2024 - Present
+
+* Brief Descriptions:
+
+    * Joined the Prof. Xin Ma’s team and participated in breast cancer early screening related research project focusing on developing new algorithm to improve super-resolution processes.
+    * Read the research related paper and identify the potential useful methodologies and corresponding coding methods
+
+
+### Additional Experiences
+ 
+**Marschino Milk Tea Shop**
+
+**Co-founder**
+
+* Dalian, CN | Apr 2021 - Oct 2021
+
+* Brief Descriptions:
+    
+    * Conducted on-site visits to local tea shops, researching their product features, pricing, employee
+compensation, and customer traffic on both weekdays and weekends. Compiled and analyzed the data to determine our product positioning, pricing, employee salaries, and establish our tea shop's uniqueness.
+
+    * Collaborated with our business partners to collect and organize expenditure data, including rent, employee salaries, raw materials, promotional materials, and business license registration. Allocated funds based on the total initial investment of our startup partners to manage expenses effectively.
+
+    * Utilized a basic financial model to calculate the breakeven point, taking into account the startup capital for the tea shop and all associated costs. Estimated future profits based on expected weekly sales figures.
+
+
+**CUA Soccer Team** 
+
+**Right-back/ Right Middle Field/ Right Wing Forward**
+
+* Toronto, CA | Nov 2021 - Apr 2024
+
+* Brief Descriptions:
+
+    * Analyzed training videos of professional athletes during free time to identify the technical skills I need to improve. With the information gathered and considering the available time and specific requirements, created a customized self-training plan.
+    * Participated as a starting member with the team in various divisions of UT intramurals soccer leagues and got 1 championship.
+
+
+## Skills & Interests
+ 
+* Programming Languages: Python, R, SAS, Latex, SQL
+* Language: Mandarin (native), English, Japanese (N1 level)
+* Interests: Soccer, Basketball, Biographies, Classic Chinese Literature
+
+
+
+
+</div>
+
+<p style="text-align: center;">
+  <a href=" ">Go back to Home</a >
+</p >

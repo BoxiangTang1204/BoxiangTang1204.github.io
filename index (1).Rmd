@@ -1,0 +1,55 @@
+---
+title: "Boxiang's First Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+## Welcome
+
+Hi my dear visitor !
+
+Welcome to my first personal website! Here, you’ll find：
+ 
+ * a showcase of my academic and professional journey, with highlights including my full resume, (please visit this [page](about.html)) 
+ 
+ * a data analysis plots & corresponding code page, (please visit this [page](Data_analysis_plot.html))
+ 
+ * an interactive dashboards showcasing various data visualizations. (please visit this [page](Dashboard.html))
+ 
+
+## Here are some important parts of my life {.tabset}
+
+### Soccer Team
+
+* My favourite soccer team: Realmadrid
+
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/real_madrid.jpg)
+
+### Basketball Team
+
+* My favourite basketball team: Huston Rocket
+
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/Rocket.jpg)
+
+### My Cat
+ 
+* Here is my cat Xie Huang:
+
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/xie_huang.jpg)
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/xiehuang_2.jpg)
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/xiehuang_3.jpg)
+
+### Anime
+
+* I'm a big fan of anime:
+
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/anime_1.jpg)
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/anime_2.jpg)
+![](/Users/boxiangtang/Desktop/BoxiangTang1204.github.io/pic_website/anime_3.jpg)
+
+
+
+

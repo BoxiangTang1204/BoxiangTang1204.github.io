@@ -1,0 +1,80 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+css: united.css
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+Column {data-width=650}
+-------------------------------------------------------------------------------------------------------
+
+### Chart A
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+
+# Load the Instacart dataset
+data(instacart)
+
+# Sample the data
+instacart_sample = 
+  instacart |>
+  sample_n(500)
+
+# Pie Chart: Proportion of Products by Department
+instacart_sample |>
+  count(department) |>
+  plot_ly(labels = ~department, 
+          values = ~n, type = 'pie') |>
+  layout(title = "Product Proportion by Department")
+```
+
+
+Column {data-width=350}
+-------------------------------------------------------------------------------------------------------
+
+### Chart B
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+# Box Plot: Add-to-cart order distribution by department
+instacart_sample |>
+  plot_ly(x = ~department, 
+          y = ~add_to_cart_order, 
+          type = 'box', 
+          color = ~department) |>
+  layout(title = "Add-to-Cart Order Distribution by Department",
+         xaxis = list(title = "Department"),
+         yaxis = list(title = "Add-to-Cart Order"))
+```
+
+### Chart C
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+# Bar Plot: Count of products per aisle
+instacart_sample |>
+  count(aisle) |>
+  plot_ly(x = ~aisle, 
+          y = ~n, 
+          type = 'bar', 
+          color = ~aisle) |>
+  layout(title = "Count of Products per Aisle", 
+         xaxis = list(title = "Aisle"),
+         yaxis = list(title = "Count"))
+```
+
+
+</div>
+
+<p style="text-align: center;">
+  <a href=" ">Go back to Home</a >
+</p >

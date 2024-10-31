@@ -1,0 +1,75 @@
+---
+title: "Data Analysis Plots"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+## Initiation
+```{r,message=FALSE, warning=FALSE}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+
+# Load the Instacart dataset
+data(instacart)
+
+# Sample the data
+instacart_sample = 
+  instacart |>
+  sample_n(500)
+
+```
+
+
+## Pie Chart: Proportion of Products by Department
+```{r,message=FALSE, warning=FALSE}
+
+instacart_sample |>
+  count(department) |>
+  plot_ly(labels = ~department, 
+          values = ~n, type = 'pie') |>
+  layout(title = "Product Proportion by Department")
+
+```
+
+## Box Plot: Add-to-cart order distribution by department
+```{r,message=FALSE, warning=FALSE}
+
+instacart_sample |>
+  plot_ly(x = ~department, 
+          y = ~add_to_cart_order, 
+          type = 'box', 
+          color = ~department) |>
+  layout(title = "Add-to-Cart Order Distribution by Department",
+         xaxis = list(title = "Department"),
+         yaxis = list(title = "Add-to-Cart Order"))
+
+```
+
+
+## Bar Plot: Count of products per aisle
+```{r,message=FALSE, warning=FALSE}
+
+instacart_sample |>
+  count(aisle) |>
+  plot_ly(x = ~aisle, 
+          y = ~n, 
+          type = 'bar', 
+          color = ~aisle) |>
+  layout(title = "Count of Products per Aisle", 
+         xaxis = list(title = "Aisle"),
+         yaxis = list(title = "Count"))
+```
+
+
+
+
+</div>
+
+<p style="text-align: center;">
+  <a href=" ">Go back to Home</a >
+</p >

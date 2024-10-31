@@ -1,0 +1,19 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    
+    - text: "About"
+      href: about.html
+    - text: "Codes & Plots"
+      href: Data_analysis_plot.html
+    - text: "Dashboard"
+      href: Dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:bt2654@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: http://github.com/BoxiangTang1204/
+output:
+  html_document:
+    theme: united
